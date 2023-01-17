@@ -26,7 +26,7 @@ function About() {
             to apply my skills and enthusiasm to a full-time role.
           </article>
           <div className="mt-16 text-lg fo font-poppins">
-            <p className="mb-5 text-second">Technologies I've Worked With:</p>
+            <p className="mb-5 text-second">Technologies I have Worked With:</p>
             <section className="lg:flex lg:flex-row gap-10">
               <div>
                 <p>Html</p>

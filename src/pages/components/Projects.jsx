@@ -17,7 +17,7 @@ function Projects() {
     <div className="bg-first" id="Projects">
       <div className=" px-28 pt-24 flex flex-wrap">
         <div className="sm:w-1/3 w-96 items-center ">
-          <p className="text-white text-4xl font-poppins">Projects</p>
+          <h1 className="text-white text-4xl font-poppins">Projects</h1>
           <p className="bg bg-second w-36 h-2 mt-2"></p>
           <p className="mt-14 text-white text-base leading-relaxed font-inter">
             In the projects section of my portfolio, I am proud to showcase a
@@ -52,7 +52,7 @@ function Projects() {
             imgSrc={"Card4.jpg"}
             title={"signTypedDataV4"}
             subtitle={
-              "A Dapp which uses metamask's signtypedDataV4 to sign off chain messages while still verifying the has with public key"
+              "A Dapp which uses signtypedDataV4 from metamask to sign off chain messages while still verifying the has with public key"
             }
             website={"https://networkone.vercel.app/"}
             className="max-sm:h-28"
@@ -70,7 +70,7 @@ function Projects() {
             imgSrc={"Card2.jpg"}
             title={"Message portal Dapp"}
             subtitle={
-              "A Dapp to send me a message via blockchain and display them on the UI. I've also included a prize if you get the lucky number 💸 "
+              "A Dapp to send me a message via blockchain and display them on the UI. I have also included a prize if you get the lucky number 💸 "
             }
           />
 
