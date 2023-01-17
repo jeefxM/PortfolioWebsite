@@ -49,7 +49,7 @@ function Projects() {
         </div>
         <div className="flex items-center pt-10 gap-10 flex-wrap">
           <Card
-            imgSrc={"/Card4.jpg"}
+            imgSrc={"card4.jpg"}
             title={"signTypedDataV4"}
             subtitle={
               "A Dapp which uses signtypedDataV4 from metamask to sign off chain messages while still verifying the has with public key"
@@ -59,7 +59,7 @@ function Projects() {
           />
 
           <Card
-            imgSrc={"/Card1.jpg"}
+            imgSrc={"../../public/card1.jpg"}
             title={"Favorite Number Dapp"}
             subtitle={
               "A Dapp to store a favorite number on the blockchain and retrieve it with a mapping. Currently hosted on polygon mainnet "
@@ -67,7 +67,7 @@ function Projects() {
           />
 
           <Card
-            imgSrc={"/Card2.jpg"}
+            imgSrc={"card2.jpg"}
             title={"Message portal Dapp"}
             subtitle={
               "A Dapp to send me a message via blockchain and display them on the UI. I have also included a prize if you get the lucky number 💸 "
@@ -75,7 +75,7 @@ function Projects() {
           />
 
           <Card
-            imgSrc={"/Card3.jpg"}
+            imgSrc={"public/card3.jpg"}
             title={"One Piece DAO"}
             subtitle={
               "A DAO for One Piece Fans built with thirdweb Library. Deployed ERC20, ERC-1155 and voting contracts via Javascript. "
