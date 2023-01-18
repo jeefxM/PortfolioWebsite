@@ -6,10 +6,10 @@ import LanguageIcon from "@mui/icons-material/Language";
 function Card(props) {
   return (
     <div
-      className="rounded-lg overflow-hidden shadow-lg bg-grayBlack inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 h-128 w-104 max-sm:w-60 max-sm:h-96, text-white"
+      className="rounded-lg overflow-hidden shadow-lg bg-grayBlack inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 h-128 w-104 max-sm:w-full max-sm:h-96, text-white"
       id="FirstDiv"
     >
-      <div className="w-full h-1/2">
+      <div className="w-full h-1/2 m max-md:w-full">
         <img
           src={props.imgSrc}
           alt="Project Image"
