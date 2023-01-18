@@ -30,6 +30,27 @@ function Contact() {
           </p>
         </div>
         <div className="">
+          <a
+            href="https://www.linkedin.com/in/dato-maisuradze-882727240/"
+            alt="Linkedin icon linking to my Linkedin profile"
+          >
+            <IconButton aria-label="GitHub" size="medium">
+              <LinkedInIcon fontSize="medium" />
+              Linkedin
+            </IconButton>
+          </a>
+
+          <a href="https://github.com/jeefxM">
+            <IconButton
+              aria-label="GitHub"
+              size="medium"
+              alt="Github icon linking to my Github profile"
+            >
+              <GitHubIcon fontSize="medium" />
+              Github
+            </IconButton>
+          </a>
+
           <a href="https://twitter.com/Maisuradze077">
             <IconButton
               aria-label="twitter"
@@ -61,30 +82,7 @@ function Contact() {
               Instagram
             </IconButton>
           </a>
-
-          <a href="https://github.com/jeefxM">
-            <IconButton
-              aria-label="GitHub"
-              size="medium"
-              alt="Github icon linking to my Github profile"
-            >
-              <GitHubIcon fontSize="medium" />
-              Github
-            </IconButton>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/dato-maisuradze-882727240/"
-            alt="Linkedin icon linking to my Linkedin profile"
-          >
-            <IconButton aria-label="GitHub" size="medium">
-              <LinkedInIcon fontSize="medium" />
-              Linkedin
-            </IconButton>
-          </a>
         </div>
-
-        <p></p>
       </div>
     </div>
   );

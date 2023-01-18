@@ -11,5 +11,3 @@ function Footer() {
 }
 
 export default Footer;
-
-//pl-40 py-8 gap-3
