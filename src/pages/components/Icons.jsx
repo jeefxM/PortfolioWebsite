@@ -2,8 +2,8 @@ import React from "react";
 
 function Icons() {
   return (
-    <div className="ali items-start">
-      <div className="flex">
+    <div className="ali items-start flex ">
+      <div className="flex flex-wrap">
         <a
           href="https://docs.soliditylang.org/en/v0.8.17/"
           target="_blank"

@@ -1,24 +1,14 @@
 import React from "react";
-import { Button } from "@mui/material";
+
 import Card from "./Card";
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 function Projects() {
-  const slideLeft = () => {
-    let slider = document.getElementById("slider");
-    slider.scrollLeft = slideLeft + 700;
-  };
-
-  const slideRight = () => {
-    let slider = document.getElementById("slider");
-    slider.scrollLeft += 700;
-  };
   return (
     <div className="bg-first" id="Projects">
-      <div className=" px-28 pt-24 flex flex-wrap">
-        <div className="sm:w-1/3 w-96 items-center ">
+      <div className=" pl-28 max-md:px-8 max-md:justify-center pt-24 flex flex-wrap">
+        <div className=" w-5/12 max-sm:w-auto items-center ">
           <h1 className="text-white text-4xl font-poppins">Projects</h1>
-          <p className="bg bg-second w-36 h-2 mt-2"></p>
+          <p className=" bg-second w-36 h-2 mt-2"></p>
           <p className="mt-14 text-white text-base leading-relaxed font-inter">
             In the projects section of my portfolio, I am proud to showcase a
             variety of decentralized applications (Dapps) that I have built and
@@ -49,48 +39,49 @@ function Projects() {
         </div>
         <div className="flex items-center pt-10 gap-10 flex-wrap">
           <Card
-            imgSrc={"card4.jpg"}
+            imgSrc={"card1.jpg"}
             title={"signTypedDataV4"}
             subtitle={
               "A Dapp which uses signtypedDataV4 from metamask to sign off chain messages while still verifying the has with public key"
             }
             website={"https://networkone.vercel.app/"}
-            className="max-sm:h-28"
-          />
-
-          <Card
-            imgSrc={"../../public/card1.jpg"}
-            title={"Favorite Number Dapp"}
-            subtitle={
-              "A Dapp to store a favorite number on the blockchain and retrieve it with a mapping. Currently hosted on polygon mainnet "
-            }
+            github={"https://github.com/jeefxM/Network1Copy"}
+            className="max-sm:w-28"
           />
 
           <Card
             imgSrc={"card2.jpg"}
+            title={"Favorite Number Dapp"}
+            subtitle={
+              "A Dapp to store a favorite number on the blockchain and retrieve it with a mapping. Currently hosted on polygon mainnet "
+            }
+            website={"https://favoritenumber.vercel.app/"}
+            github={"https://github.com/jeefxM/favoriteNumberNextJs"}
+          />
+
+          <Card
+            imgSrc={"card3.jpg"}
             title={"Message portal Dapp"}
             subtitle={
               "A Dapp to send me a message via blockchain and display them on the UI. I have also included a prize if you get the lucky number 💸 "
             }
+            website={"https://messageportal.vercel.app/"}
+            github={"https://github.com/jeefxM/MessagePortalNextJs"}
           />
 
           <Card
-            imgSrc={"public/card3.jpg"}
+            imgSrc={"card4.jpg"}
             title={"One Piece DAO"}
             subtitle={
               "A DAO for One Piece Fans built with thirdweb Library. Deployed ERC20, ERC-1155 and voting contracts via Javascript. "
             }
+            website={"https://one-piece-dao.vercel.app/"}
+            github={"https://github.com/jeefxM/OnePieceDAO"}
           />
-
-          {/* </div> */}
-          {/* <MdChevronRight size={40} onClick={slideRight} /> */}
         </div>{" "}
-        <span className="font-pacifico text-4xl ml-28 mt-40 m max-sm:ml-0 text-second">
-          More to come...
-        </span>
       </div>
       <a href="https://github.com/jeefxM">
-        <button className="bg-second w-36 h-10 text-white rounded mb-28 mx-28 mt-10">
+        <button className="bg-second w-36 h-10 text-white rounded mb-28 ml-28 mt-10 max-md:ml-9">
           More Projects
         </button>
       </a>

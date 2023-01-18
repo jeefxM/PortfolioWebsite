@@ -11,9 +11,9 @@ function Contact() {
     <div className="bg-third py-20 text-white" id="Contact">
       <div className="flex justify-center flex-wrap flex-col align-middle items-center gap-3 font-poppins">
         <h1 className="text text-4xl">Contact Me</h1>
-        <span>
-          To contact me you can you can use various social medias as well as
-          traditional email
+        <span className="max-sm:w-80 w-">
+          Stay connected with David Maisuradze through various social media
+          platforms or via traditional email
         </span>
         <div itemscope itemtype="http://schema.org/Person">
           <p>

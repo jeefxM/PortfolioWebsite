@@ -5,11 +5,11 @@ function About() {
   return (
     <div
       id="About"
-      className="flex flex-column justify-between bg-third px-28 py-24 flex-wrap"
+      className="flex flex-column justify-between bg-third px-28 max-md:px-8 py-24 flex-wrap"
     >
       <div className="sm:w-5/12 w-96 items-center ">
         <p className=" text-white text-4xl font-poppins">About Me</p>
-        <p className="bg bg-second w-40 h-2 mt-2"></p>
+        <p className="bg-second w-40 h-2 mt-2"></p>
         <div className="mt-14 text-white text-base">
           <article className="leading-relaxed">
             Hello, my name is David and I am a passionate WEB3 and blockchain

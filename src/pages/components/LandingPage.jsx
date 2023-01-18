@@ -11,7 +11,7 @@ function LandingPage() {
           </span>
         </div>
 
-        <ul class="md:flex md:items-center font-poppins">
+        <ul className="sm:flex items-center flex-wrap font-poppins">
           <li className="mx-8 my-6 md:my-0 ">
             <Link
               to="About"
@@ -59,7 +59,7 @@ function LandingPage() {
         </ul>
       </nav>
 
-      <div className="px-28 md:flex flex-column justify-between flex-wrap ">
+      <div className="px-28 max-md-px-8 max-md:px-16 md:flex flex-column justify-between flex-wrap ">
         <meta
           name="description"
           content="David is a blockchain developer proficient in React and Solidity. Check out his portfolio and contact him for any blockchain development needs."

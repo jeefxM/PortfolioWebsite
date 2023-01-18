@@ -17,6 +17,7 @@ module.exports = {
         third: "#1E293B",
       },
       colors: {
+        darkBlack: "#0F172A",
         second: "#7477FF",
         zimaBlue: "#16B8F3",
         purple:"#9a00ff",
