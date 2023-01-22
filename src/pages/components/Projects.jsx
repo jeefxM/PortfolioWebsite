@@ -78,6 +78,16 @@ function Projects() {
             website={"https://one-piece-dao.vercel.app/"}
             github={"https://github.com/jeefxM/OnePieceDAO"}
           />
+
+          <Card
+            imgSrc={"card5.png"}
+            title={"ERC20 Generator"}
+            subtitle={
+              "ERC20 Token Generator Dapp. Customize and Deploy your own tokens on the blockchain."
+            }
+            website={"https://erc20-generator-jeefx.vercel.app/"}
+            github={"https://github.com/jeefxM/ERC20GeneratorFrontend-Tailwind"}
+          />
         </div>{" "}
       </div>
       <a href="https://github.com/jeefxM">
