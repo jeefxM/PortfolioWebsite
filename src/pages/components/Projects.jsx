@@ -99,7 +99,7 @@ function Projects() {
         </div>{" "}
       </div>
       <a href="https://github.com/jeefxM">
-        <button className="bg-second w-36 h-10 text-white rounded mb-28 ml-28 mt-10 max-md:ml-9">
+        <button className="bg-second hover:bg-[#4368DC] w-36 h-10 text-white rounded mb-28 ml-28 mt-10 max-md:ml-9">
           More Projects
         </button>
       </a>

@@ -24,7 +24,7 @@ function LandingSection() {
         </title>
 
         <Link to="Projects" spy={true} smooth={true} offset={50} duration={500}>
-          <button className="bg-second w-40 h-14 b rounded mt-8 mb-28 hover:bg-byzantium">
+          <button className="bg-second w-40 h-14 b rounded mt-8 mb-28 hover:bg-[#4368DC]">
             See Projects
           </button>
         </Link>
