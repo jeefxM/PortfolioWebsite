@@ -5,7 +5,7 @@ import Card from "./Card";
 function Projects() {
   return (
     <div className="bg-first" id="Projects">
-      <div className=" pl-28 max-md:px-8 max-md:justify-center pt-24 flex flex-wrap">
+      <div className=" pl-28 max-md:px-8 max-md:justify-center pt-24 flex flex-wrap max-w-[2700px]">
         <div className=" w-5/12 max-sm:w-auto items-center ">
           <h1 className="text-white text-4xl font-poppins">Projects</h1>
           <p className=" bg-second w-36 h-2 mt-2"></p>
@@ -37,7 +37,7 @@ function Projects() {
             projects in the future.
           </p>
         </div>
-        <div className="flex items-center pt-10 gap-10 flex-wrap">
+        <div className="flex items-center pt-10 gap-10 flex-wrap max-w-[2200px]">
           <Card
             imgSrc={"card1.jpg"}
             title={"signTypedDataV4"}
@@ -87,6 +87,14 @@ function Projects() {
             }
             website={"https://erc20-generator-jeefx.vercel.app/"}
             github={"https://github.com/jeefxM/ERC20GeneratorFrontend-Tailwind"}
+          />
+
+          <Card
+            imgSrc={"card6.jpg"}
+            title={"DALL-E clone"}
+            subtitle={"Clone for OpenAi's DALL-E MERN stack web app"}
+            website={"https://dalle-erc721.vercel.app/"}
+            github={"https://github.com/jeefxM/DALL-E_Clone_ERC721"}
           />
         </div>{" "}
       </div>

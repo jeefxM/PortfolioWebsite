@@ -9,24 +9,24 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function Contact() {
   return (
     <div className="bg-third py-20 text-white" id="Contact">
-      <div className="flex justify-center flex-wrap flex-col align-middle items-center gap-3 font-poppins">
+      <div className="flex justify-center flex-wrap flex-col align-middle items-center gap-3 font-poppins max-w-[2600px]">
         <h1 className="text text-4xl">Contact Me</h1>
         <span className="max-sm:w-80 w-">
           Stay connected with David Maisuradze through various social media
           platforms or via traditional email
         </span>
-        <div itemscope itemtype="http://schema.org/Person">
+        <div itemScope itemType="http://schema.org/Person">
           <p>
-            <span itemprop="name">David Maisuradze</span>
+            <span itemProp="name">David Maisuradze</span>
           </p>
           <p>
             Email:{" "}
-            <a href="mailto:davitmaisuradze123@gmail.com" itemprop="email">
+            <a href="mailto:davitmaisuradze123@gmail.com" itemProp="email">
               davitmaisuradze123@gmail.com
             </a>
           </p>
           <p>
-            Phone: <span itemprop="telephone">+995555468282</span>
+            Phone: <span itemProp="telephone">+995555468282</span>
           </p>
         </div>
         <div className="">
