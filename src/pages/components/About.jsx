@@ -5,7 +5,7 @@ function About() {
     <div className="bg-third">
       <div
         id="About"
-        className="flex flex-column justify-between px-28 max-md:px-8 py-24 flex-wrap max-w-[2500px]"
+        className="flex flex-column justify-between px-28 max-md:px-8 py-24 flex-wrap max-w-[2600px]"
       >
         <div className="sm:w-5/12 w-96 items-center ">
           <p className=" text-white text-4xl font-poppins">About Me</p>
@@ -60,8 +60,8 @@ function About() {
         </div>
         <div className=" ">
           <img
-            src="about-img.png"
-            className="my-16 mr-20"
+            src="developer.png"
+            className="pr-20 w-[89%]"
             alt="David sitting in front of multiple computer screens, working on blockchain development projects"
           ></img>
         </div>
