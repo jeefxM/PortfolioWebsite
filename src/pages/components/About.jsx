@@ -1,4 +1,7 @@
 import React from "react";
+import Animation22 from "public/Animation22";
+
+import Lottie from "lottie-react";
 
 function About() {
   return (
@@ -58,12 +61,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div className=" ">
-          <img
-            src="developer.png"
-            className="pr-20 w-[89%]"
-            alt="David sitting in front of multiple computer screens, working on blockchain development projects"
-          ></img>
+        <div className="max-w-[600px]">
+          <Lottie animationData={Animation22} />
         </div>
       </div>
     </div>
